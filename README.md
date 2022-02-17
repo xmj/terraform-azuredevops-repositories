@@ -39,11 +39,11 @@ This module manages Azure DevOps Repositories.
 ## Examples
 
 ```hcl
-module "azuredevops_repositories" {
-  source = "../modules/azure/terraform-azuredevops_repositories"
+module "repositories" {
+  source = "registry.terraform.io/T-Systems-MMS/pipelines/repositories"
   git_repository = {
     azuredevops = {
-      project_id = module.azuredevops_project.project["project_name"].id
+      project_id = module.project.project["project_name"].id
     }
   }
 }
