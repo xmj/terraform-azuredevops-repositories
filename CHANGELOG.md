@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.0](https://github.com/T-Systems-MMS/terraform-azuredevops-repositories/tree/0.1.0) (2022-02-17)
+
+[Full Changelog](https://github.com/T-Systems-MMS/terraform-azuredevops-repositories/compare/0.0.1...0.1.0)
+
 ## [0.0.1](https://github.com/T-Systems-MMS/terraform-azuredevops-repositories/tree/0.0.1) (2022-02-07)
 
 [Full Changelog](https://github.com/T-Systems-MMS/terraform-azuredevops-repositories/compare/db4e6739254d5c1745487e4c3611ec4fb7cc5258...0.0.1)
