@@ -1,5 +1,4 @@
 <!-- BEGIN_TF_DOCS -->
-
 # azuredevops_repositories
 
 This module manages Azure DevOps Repositories.
@@ -8,33 +7,33 @@ This module manages Azure DevOps Repositories.
 
 ## Requirements
 
-| Name        | Version  |
-| ----------- | -------- |
-| terraform   | ~>1.0.11 |
-| azuredevops | =0.1.8   |
+| Name | Version |
+|------|---------|
+| terraform | ~> 1.2.0 |
+| azuredevops | =0.2.1 |
 
 ## Providers
 
-| Name        | Version |
-| ----------- | ------- |
-| azuredevops | =0.1.8  |
+| Name | Version |
+|------|---------|
+| azuredevops | =0.2.1 |
 
 ## Resources
 
-| Name                                      | Type     |
-| ----------------------------------------- | -------- |
+| Name | Type |
+|------|------|
 | azuredevops_git_repository.git_repository | resource |
 
 ## Inputs
 
-| Name           | Description                                                                                  | Type  | Default | Required |
-| -------------- | -------------------------------------------------------------------------------------------- | ----- | ------- | :------: |
-| git_repository | resource definition, default settings are defined within locals and merged with var settings | `any` | `{}`    |    no    |
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| git_repository | resource definition, default settings are defined within locals and merged with var settings | `any` | `{}` | no |
 
 ## Outputs
 
-| Name           | Description                        |
-| -------------- | ---------------------------------- |
+| Name | Description |
+|------|-------------|
 | git_repository | azuredevops_git_repository results |
 
 ## Examples
@@ -49,5 +48,4 @@ module "repositories" {
   }
 }
 ```
-
 <!-- END_TF_DOCS -->
